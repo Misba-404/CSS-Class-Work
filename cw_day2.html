@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box model</title>
+    <style>
+      .out {
+        border-style: solid;
+        border-color: blue;
+        padding: 50px;
+      }
+      .mid {
+        border-style: solid;
+        border-color: black;
+        padding: 30px;
+      }
+      .inner {
+        border-style: solid;
+        border-color: rgb(18, 199, 82);
+        padding: 10px;
+      }
+      div{
+        border-width: 10px;
+        margin: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="out">
+      <div class="mid">
+        <div class="inner"></div>
+      </div>
+    </div>
+  </body>
+</html>
